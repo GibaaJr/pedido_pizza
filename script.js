@@ -127,7 +127,7 @@ function updateCart() {
 
     if (cart.length > 0 ) {
         c('aside').classList.add('show');
-        c('.cart').innertHTML = '';
+        c('.cart').innerHTML = '';
 
         let subtotal = 0;
         let discount = 0;
